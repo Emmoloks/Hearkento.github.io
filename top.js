@@ -1,4 +1,4 @@
-const key = config.API_KEY;
+const key = d526f8a0abbdd55f1fe8ae9dc3887397;
 
 const searchMovie =
   "https://api.themoviedb.org/3/movie/top_rated?api_key=" +
