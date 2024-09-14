@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hearkento</title>
-    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <title>Movie Finder - moviefinz</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +27,7 @@
           style="background-color: #5d5fb9"
         >
           <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><u>Hearkento</u></a>
+            <a class="navbar-brand" href="./index.html"><u>Movie Finder</u></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -91,7 +95,7 @@
           </div>
         </nav>
       </nav>
-      <div class="h1 text-center">Hearkento</div>
+      <div class="h1 text-center title">Movie Finder</div>
       <div class="text-center">
         <img
           src="./images/moviefinz.png"
@@ -102,15 +106,47 @@
       </div>
     </header>
     <main>
-      <h2 class="text-center"><u>Search Movies</u></h2>
+      <!-- <h2 class="text-center"><u>Search Results</u></h2> -->
+      <div class="row m-3 justify-content-center">
+        <div class="col-sm-5 mb-4">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search for Movies..."
+              id="myInput"
+            />
+            <div class="input-group-btn">
+              <button
+                class="btn m-1"
+                style="background-color: #5d5fb9"
+                type="submit"
+                onclick="getValue()"
+                id="clickBtn"
+              >
+                Submit <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <button
+                class="btn"
+                style="background-color: #5d5fb9"
+                type="submit"
+                onclick="reset()"
+              >
+                Reset <i class="fa-solid fa-rotate-left"></i>
+              </button>
+            </div>
+          </div>
+          <!-- End Form -->
+        </div>
+      </div>
     </main>
 
     <footer>
-      <div class="text-center mt-3 mb-3" style="background-color: lightgray">
+      <div class="text-center mt-3 mb-2" style="background-color: lightgray">
         <p>
-          Created with ❤️ and Enthusiasm by
-          <a href="https://github.com/Emmoloks" target="_blank"
-            >@Koderkbleeki</a
+          Created with ❤️ and Enthuasiasm by
+          <a href="https://github.com/mariosdaskalas" target="_blank"
+            >@mariosdaskalas</a
           >
         </p>
         <p>
@@ -133,7 +169,13 @@
     </footer>
     <script type="text/javascript" src="./config.js"></script>
     <script type="text/javascript" src="./searchMovies.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js">
-    </script>
+    <script
+      type="text/javascript"
+      src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/fd07401da9.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
