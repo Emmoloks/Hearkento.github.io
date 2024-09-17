@@ -38,11 +38,3 @@ To use the TMDb API:
 
 For questions or collaborations, reach out via:
 - **Email**: emmanuelkaloki77@gmail.com
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-This version is short, to the point, and still professional. It includes key information while keeping it brief for a static website.
