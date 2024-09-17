@@ -24,7 +24,7 @@ Check out the live demo: https://emmoloks.github.io/Hearkento.github.io/index.ht
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movie-explorer.git
+   git clone https://github.com/your-username/https://github.com/Emmoloks/Hearkento.github.io
    ```
 2. Open `index.html` in your browser.
 
